@@ -21,11 +21,11 @@ dependencies {
     compileOnly("com.velocitypowered:velocity-api:3.1.1")
     kapt("com.velocitypowered:velocity-api:3.1.1")
     annotationProcessor("com.velocitypowered:velocity-api:3.1.1")
-    implementation("net.kyori:adventure-text-serializer-legacy:4.15.0")
+    implementation("net.kyori:adventure-text-serializer-legacy:4.18.0")
     compileOnly("net.luckperms:api:5.4")
-    implementation("com.google.code.gson:gson:2.10.1")
-    implementation("com.rabbitmq:amqp-client:5.20.0")
-    implementation("io.lettuce:lettuce-core:6.3.0.RELEASE")
+    implementation("com.google.code.gson:gson:2.12.1")
+    implementation("com.rabbitmq:amqp-client:5.25.0")
+    implementation("io.lettuce:lettuce-core:6.5.3.RELEASE")
 
     implementation(project(":enhancedglist-common"))
     implementation(project(":enhancedglist-velocity-api"))
@@ -33,14 +33,14 @@ dependencies {
     implementation(project(":enhancedglist-messenger"))
 
     // Caffeine for Cache
-    implementation("com.github.ben-manes.caffeine:caffeine:3.1.8")
+    implementation("com.github.ben-manes.caffeine:caffeine:3.2.0")
 
     // Configurate - Sponge
     implementation("org.spongepowered:configurate-yaml:4.1.2")
     implementation("org.spongepowered:configurate-hocon:4.1.2")
 
     // Protocolize
-    compileOnly("dev.simplix:protocolize-api:2.3.3")
+    compileOnly("dev.simplix:protocolize-api:2.4.3")
 
     // PremiumVanish
     compileOnly("com.github.LeonMangler:PremiumVanishAPI:2.9.0-4")
